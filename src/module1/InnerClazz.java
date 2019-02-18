@@ -1,3 +1,5 @@
+package module1;
+
 public class InnerClazz {
 
     private int length = 5;

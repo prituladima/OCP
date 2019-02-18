@@ -1,4 +1,4 @@
-package review1;
+package module1.review1;
 
 public class Book2 {
     private int pageNumber;

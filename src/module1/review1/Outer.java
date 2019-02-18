@@ -1,4 +1,4 @@
-package review1;
+package module1.review1;
 
 public class Outer {
     private int x = 5;
