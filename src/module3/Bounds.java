@@ -8,9 +8,9 @@ public class Bounds {
     public static void main(String[] args) {
         //Unbounded wildcard
         List<?> l1 = new ArrayList<String>();
-        //Wildcard with an upper bound
+        //Helper with an upper bound
         List<? extends Exception> l2 = new ArrayList<RuntimeException>();
-        //Wildcard with a lower bound
+        //Helper with a lower bound
         List<? super Exception> l3 = new ArrayList<Object>();
 
         List<String> keywords = new ArrayList<>();
