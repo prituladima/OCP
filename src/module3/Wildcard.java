@@ -9,7 +9,7 @@ public class Wildcard {
     }
     public static void main(String[] args) {
         Wildcard card = new Wildcard();
-//         ArrayDeque<?> list = new ArrayDeque<String>();//not a list//WRONG
+//         ArrayDeque<?> list = new ArrayDeque<String>();//not twoArgs list//WRONG
 //         ArrayList<? super Date> list = new ArrayList<Date>();
 //         List<?> list = new ArrayList<?>();//WRONG
 //         List<Exception> list = new LinkedList<IOException>();//WRONG

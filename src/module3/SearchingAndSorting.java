@@ -21,7 +21,7 @@ public class SearchingAndSorting <T>{
 
     public static void main(String[] args) {
 
-        char[] o = SearchingAndSorting.<char[]>get("dksafnsjndf;a");
+        char[] o = SearchingAndSorting.<char[]>get("dksafnsjndf;twoArgs");
         System.out.println(Arrays.toString(o));
 
         int[] numbers = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 5};

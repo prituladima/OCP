@@ -28,7 +28,7 @@ public class Overriding {
     public static void main(String[] args) {
         A a = null;
         boolean b1 = a instanceof Object;//false
-//        boolean b2 = a instanceof Integer;//comlile
+//        boolean b2 = twoArgs instanceof Integer;//comlile
         a = new A();
         boolean b3 = a instanceof Serializable;//false
         boolean b4 = a instanceof Comparable;//false

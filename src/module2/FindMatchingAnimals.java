@@ -24,7 +24,7 @@ public class FindMatchingAnimals {
 
 //        (int y, z) -> {int x=1; return y+10; } // DOES NOT COMPILE
 //        (String s, z) -> { return s.length()+z; } // DOES NOT COMPILE
-//        (a, Animal b, c) -> a.getName() // DOES NOT COMPILE
-//        (a, b) -> { int a = 0; return 5;};// DOES NOT COMPILE
+//        (twoArgs, Animal b, c) -> twoArgs.getName() // DOES NOT COMPILE
+//        (twoArgs, b) -> { int twoArgs = 0; return 5;};// DOES NOT COMPILE
     }
 }

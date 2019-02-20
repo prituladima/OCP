@@ -26,7 +26,7 @@ public class Sorted implements Comparable<Sorted>, Comparator<Sorted> {
     }
 
     public static void main(String[] args) {
-        Sorted s1 = new Sorted(88, "a");
+        Sorted s1 = new Sorted(88, "twoArgs");
         Sorted s2 = new Sorted(55, "b");
         TreeSet<Sorted> t1 = new TreeSet<>();
         t1.add(s1);

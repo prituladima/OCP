@@ -10,7 +10,7 @@ public class Bounds {
         List<?> l1 = new ArrayList<String>();
         //Helper with an upper bound
         List<? extends Exception> l2 = new ArrayList<RuntimeException>();
-        //Helper with a lower bound
+        //Helper with twoArgs lower bound
         List<? super Exception> l3 = new ArrayList<Object>();
 
         List<String> keywords = new ArrayList<>();

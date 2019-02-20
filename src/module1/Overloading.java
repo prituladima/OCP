@@ -4,7 +4,7 @@ public class Overloading {
 
     public static void main(String[] args) {
 
-//        Converting to a larger primitive type
+//        Converting to twoArgs larger primitive type
 //        Converting to an autoboxed type
         a(new Double(5), new Double(5));
         a(new Double(5), 5);

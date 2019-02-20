@@ -4,7 +4,7 @@ public class Info {
 //    Which of the following statements about design principles and design patterns are true?
 //            (Choose all that apply.)
 
-//    A. A design principle is focused on solving a specific commonly occurring problem.
+//    A. A design principle is focused on solving twoArgs specific commonly occurring problem.
 
 //    B. Design principles and design patterns are the same thing.
 
