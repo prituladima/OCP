@@ -1,4 +1,4 @@
-package module4;
+package module4.collecting;
 
 public class OwnCollectorsExample {
     public static void main(String[] args) {

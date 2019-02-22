@@ -1,7 +1,9 @@
-package module4;
+package module4.collecting;
 
 public class CollectorsExample {
     public static void main(String[] args) {
-        // TODO: 2/21/2019
+
+
+
     }
 }
