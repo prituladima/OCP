@@ -6,6 +6,8 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveAction;
 
+//data is processed but not collected
+
 public class WeighAnimalAction extends RecursiveAction {
     private int start;
     private int end;
@@ -33,13 +35,13 @@ public class WeighAnimalAction extends RecursiveAction {
 
     public static void main(String[] args) {
         Double[] weights = new Double[10];
-        ForkJoinTask<?> task = new WeighAnimalAction(weights,0,weights.length);
-        ForkJoinPool pool  = new ForkJoinPool();
+        ForkJoinTask<?> task = new WeighAnimalAction(weights, 0, weights.length);
+        ForkJoinPool pool = new ForkJoinPool();
         pool.invoke(task);
 // Print results
         System.out.println();
         System.out.print("Weights: ");
         Arrays.asList(weights).stream().forEach(
-                d -> System.out.print(d.intValue()+" "));
+                d -> System.out.print(d.intValue() + " "));
     }
 }
