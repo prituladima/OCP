@@ -34,7 +34,7 @@ public class NullSupportnees {
 //        m.containsKey(null);
 //        System.out.println(m.get(null));
 
-        if (true) {
+        if (false) {
             return;
         }
 
@@ -42,6 +42,9 @@ public class NullSupportnees {
         //map1.get(null);//
 //        map1.containsKey(null);
 //        map1.put(5, null);
+        System.out.println(map1.put(1, 5));
+        System.out.println(map1.put(1, 5));
+        //return previous value
 
         map1 = new LinkedHashMap<>();
         map1.get(null);
